@@ -19,4 +19,15 @@ Website used [https://tools.pingdom.com/](https://tools.pingdom.com/)
 
 ## Deployed Application link
 
-Deployed this application on Netlify. Here is the link [https://master--rad-arithmetic-b183b1.netlify.app/] (https://master--rad-arithmetic-b183b1.netlify.app/)
+Deployed this application on Netlify. Here is the link [https://master--rad-arithmetic-b183b1.netlify.app/](https://master--rad-arithmetic-b183b1.netlify.app/)
+
+## Features
+
+The features in this website are:
+
+1. We can write SQL queries on various different tables provided.
+2. We can view all the different tables where the data is paginated to be easy on the eyes.
+3. The data can be sorted in ascending or descending order from the datagrid.
+4. The table entries can be deleted based on the Id.
+5. A new data row can be added into various tables.
+6. Custom field validations are provided such as, not allowing letters in the PhoneNo field and form submission being failed upon not meeting these requirements.
