@@ -3,13 +3,9 @@ import SideBar from "../../components/SideBar/SideBar";
 import TopBar from "../../components/TopBar/TopBar";
 import "./home.css";
 import { DataGrid } from "@mui/x-data-grid";
-import { useState } from "react";
 import { deliveryAdress } from "../../db";
 
 const Home = () => {
-  //Since delivery adresses is an array, we initiate the array.
-  const [data, setData] = useState(deliveryAdress);
-
   const columns = [
     {
       field: "id",
@@ -63,7 +59,7 @@ const Home = () => {
             <DataGrid
               GridLines="None"
               rowHeight={80}
-              rows={data}
+              rows={deliveryAdress}
               disableSelectionOnClick
               columns={columns}
               pageSize={6}
